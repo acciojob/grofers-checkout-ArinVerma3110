@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
-	const priceElements = document.querySelectorAll(".prices")
+	const priceElements = document.querySelectorAll(".price")
 	let totalPrice = 0;
 	const table = document.querySelector("table");
 
