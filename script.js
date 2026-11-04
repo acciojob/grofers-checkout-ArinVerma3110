@@ -12,11 +12,11 @@ const getSum = () => {
 		totalPrice += parseInt(element.textContent);
 	});
 
-	cont newRow = document.createElement("tr");
-	cont newCell = document.createElement("td");
+	const newRow = document.createElement("tr");
+	const newCell = document.createElement("td");
 
 	newRow.id = "ans";
-
+	newCell.setAttribute("colspan","2");
 	newCell.textContent = "Total Price: Rs.", totalPrice;
 	newRow.appendChild(newCell);
 	table.appendChild(newRow);
