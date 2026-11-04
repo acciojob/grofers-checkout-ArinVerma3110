@@ -17,7 +17,7 @@ const getSum = () => {
 
 	newRow.id = "ans";
 	newCell.setAttribute("colspan","2");
-	newCell.textContent = "Total Price: Rs.", totalPrice;
+	newCell.textContent = "Total Price: Rs."+ totalPrice;
 	newRow.appendChild(newCell);
 	table.appendChild(newRow);
   
